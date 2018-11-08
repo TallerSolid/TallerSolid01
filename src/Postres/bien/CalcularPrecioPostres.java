@@ -7,7 +7,7 @@ package Postres.bien;
 
 /**
  *
- * @author Administrador
+ * @author ROSA
  */
 public class CalcularPrecioPostres {
     
