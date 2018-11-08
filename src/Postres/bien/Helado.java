@@ -5,7 +5,6 @@
  */
 package Postres.bien;
 
-import Postres.*;
 import java.util.ArrayList;
 import Otros.Aderezo;
 
@@ -20,16 +19,6 @@ public class Helado extends Postre{
     
     public Helado(String sabor){
         super(sabor);
-    }
-    
-    public double calcularPrecioFinal(){
-        double precioFinal;
-        precioFinal=(this.getPrecioParcial()+(this.getPrecioParcial()*0.12))+(this.getAderezos().size()*0.50);
-        return precioFinal;
-    }
-
-    public ArrayList<Aderezo> getAderezos() {
-        return aderezos;
     }
 
     @Override
