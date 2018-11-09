@@ -6,9 +6,9 @@
 package Principal.bien;
 
 import Postres.bien.*;
-import Procesos.bien.*;
-import Leche.*;
+import Procesos.Bien.*;
 import Otros.*;
+
 /**
  *
  * @author djurado

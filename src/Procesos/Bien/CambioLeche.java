@@ -3,7 +3,8 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Procesos;
+package Procesos.Bien;
+import Leche.Bien.Leche;
 
 import Leche.LecheDeslactosada;
 import Leche.LecheDescremada;
@@ -14,13 +15,14 @@ import Leche.LecheDescremada;
  */
 public class CambioLeche {
     
-    public void cambiarTipoLecheDescremada(){
-        LecheDescremada ldescrem= new LecheDescremada();
-        ldescrem.usar();
+    private Leche leche;
+
+    public CambioLeche(Leche leche) {
+        this.leche = leche;
     }
-    
-    public void cambiarTipoLecheDeslactosada(){
-        LecheDeslactosada ldeslac= new LecheDeslactosada();
-        ldeslac.usar();
-    }    
+
+    public void cambiarLeche(){
+        this.leche.usar();
+        
+    }
 }
