@@ -6,9 +6,6 @@
 package Procesos.Bien;
 import Leche.Bien.Leche;
 
-import Leche.LecheDeslactosada;
-import Leche.LecheDescremada;
-
 /**
  *
  * @author Pedro Mendoza
