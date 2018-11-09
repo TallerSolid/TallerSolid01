@@ -10,5 +10,8 @@ package Leche.Bien;
  * @author Usuario
  */
 public abstract class Leche {
-    abstract void usar();
+    public Leche(){
+    
+    }
+    public abstract void usar();
 }

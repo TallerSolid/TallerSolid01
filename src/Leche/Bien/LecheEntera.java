@@ -12,7 +12,7 @@ package Leche.Bien;
 public class LecheEntera extends Leche{
 
     @Override
-    void usar() {
+    public void usar() {
         //usar leche entera
     }
     
